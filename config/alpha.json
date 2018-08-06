@@ -1,0 +1,25 @@
+{
+    "version":"1.0",
+    "project":"api-web-services",
+    "environment":"alpha",
+    "mysql": {
+        "host": "localhost",
+        "port": 3306,
+        "database": "api",
+        "username": "root",
+        "password": "",
+        "dialect": "mysql",
+        "pool": {
+            "min": 0,
+            "max": 10,
+            "idle": 1000
+        }
+    },
+    "email": {
+        "from": "*****ismail@gmail.com",
+        "username": "*********",
+        "password": "*********",
+        "service":"Gmail"
+    }
+
+  }

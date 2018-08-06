@@ -1,0 +1,31 @@
+{
+    "version": "1.0",
+    "project": "api-web-services",
+    "environment": "production",
+    "mongo": {
+        "host": "",
+        "port": 27017,
+        "database": "",
+        "username": "",
+        "password": ""
+    },
+    "mysql": {
+        "host": "",
+        "port": "",
+        "database": "",
+        "username": "",
+        "password": "",
+        "dialect": "mysql",
+        "pool": {
+            "min": 0,
+            "max": 10,
+            "idle": 1000
+        }
+    },
+    "email": {
+        "from": "",
+        "username": "",
+        "password": "",
+        "service":"Gmail"
+    }
+}

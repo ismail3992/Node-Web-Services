@@ -1,0 +1,26 @@
+{
+    "apps": [
+        {
+            "name": "api-web-services",
+            "script": "npm",
+            "args": "start",
+            "error_file": "/var/log/pm2_logs/api_services_error.log",
+            "out_file": "/var/log/pm2_logs/api_services_output.log",
+            "env": {
+                "NODE_ENV": "default"
+            },
+            "env_alpha":{
+                "PORT"    : 9001,
+                "NODE_ENV": "alpha"
+            },
+            "env_beta":{
+                "PORT"    : 9001,
+                "NODE_ENV": "beta"
+            },
+            "env_prod": {
+                "PORT"    : 9001,
+                "NODE_ENV": "production"
+            }
+        }
+    ]
+}
